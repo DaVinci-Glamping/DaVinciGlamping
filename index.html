@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Da Vinci Glamping</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Da Vinci Glamping</div>
+    <nav id="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="vision.html">Vision</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to Da Vinci Glamping</h1>
+      <p>Neo-Renaissance. High-tech. Wild Colorado. A vision for the future.</p>
+      <a class="cta" href="vision.html">Discover the Vision</a>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <h2>Luxury & Nature</h2>
+        <p>Geodesic domes in the wild. Comfort meets exploration.</p>
+      </div>
+      <div class="feature">
+        <h2>Technology & Stargazing</h2>
+        <p>Smart domes, telescopes, AR overlays. Da Vinci meets Elon Musk.</p>
+      </div>
+      <div class="feature">
+        <h2>Freedom & Future</h2>
+        <p>This is a family dream. This is a revolution in travel.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>Follow our journey. Join the Renaissance.</p>
+    <p>Email: contact@davinciglamping.com</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById("menu");
+      nav.classList.toggle("open");
+    }
+  </script>
+</body>
+</html>
 
