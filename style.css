@@ -161,4 +161,35 @@ footer {
     flex-direction: column;
     gap: 10px;
   }
+  .overlay-hero {
+  position: relative;
+  height: 100vh;
+  background-image: url('your-background.jpg'); /* ← aggiorna se necessario */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.overlay-content {
+  background: rgba(0, 0, 0, 0.5); /* sfondo nero semitrasparente */
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 800px;
+  backdrop-filter: blur(5px);
+}
+
+.overlay-content h2 {
+  font-size: 2rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.overlay-content p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
 }
