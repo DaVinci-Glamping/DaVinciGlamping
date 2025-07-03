@@ -2,51 +2,57 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=2.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Da Vinci Glamping</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header>
-    <div class="logo">Da Vinci Glamping</div>
-    <nav id="menu">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="vision.html">Vision</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="support.html">Support US</a>
-        <li><a href="experience.html">Experience</a>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <div class="container">
+      <div class="logo">Da Vinci Glamping</div>
+      <nav id="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="vision.html">Vision</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="support.html">Support Us</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    </div>
   </header>
 
   <main>
+
+    <!-- Hero Section -->
     <section class="hero-section">
-  <div class="hero-content">
-    <h1>Welcome to Da Vinci Glamping</h1>
-    <p>Nature, Technology and Vision in Colorado</p>
-    <a href="vision.html" class="cta-button">Explore Our Vision</a>
-  </div>
-</section>
-    <section class="overlay-hero">
-  <div class="overlay-content">
-    <h2>Luxury & Nature</h2>
-    <p>Geodesic domes in the wild. Comfort meets exploration.</p>
-    <h2>Technology & Stargazing</h2>
-    <p>Smart domes, telescopes, AR overlays. Da Vinci meets Elon Musk.</p>
-    <h2>Freedom & Future</h2>
-    <p>This is a family dream. This is a revolution in travel.</p>
-  </div>
-</section>
-  </div>
+      <div class="hero-content">
+        <h1>Welcome to Da Vinci Glamping</h1>
+        <p>Nature, Technology and Vision in Colorado</p>
+        <a href="vision.html" class="btn">Explore Our Vision</a>
+      </div>
     </section>
+
+    <!-- Overlay Hero Section -->
+    <section class="overlay-hero">
+      <div class="overlay-content">
+        <h2>Luxury & Nature</h2>
+        <p>Geodesic domes in the wild. Comfort meets exploration.</p>
+        <h2>Technology & Stargazing</h2>
+        <p>Smart domes, telescopes, AR overlays. Da Vinci meets Elon Musk.</p>
+        <h2>Freedom & Future</h2>
+        <p>This is a family dream. This is a revolution in travel.</p>
+      </div>
+    </section>
+
   </main>
 
   <footer id="contact">
     <p>Follow our journey. Join the Renaissance.</p>
-    <p>Instagram @DaVinciGlamping</p>
+    <p>Instagram: <a href="https://www.instagram.com/davinciglamping" target="_blank">@DaVinciGlamping</a></p>
   </footer>
 
   <script>
@@ -55,6 +61,6 @@
       nav.classList.toggle("open");
     }
   </script>
+
 </body>
 </html>
-
